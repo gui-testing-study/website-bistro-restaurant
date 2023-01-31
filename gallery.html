@@ -27,21 +27,21 @@
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Bistro=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Bistro=".navbar-collapse" data-cy="gallery-navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                  <a class="navbar-brand" data-cy="gallery-navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li class="active"><a href="gallery.html">Gallery</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a data-cy="gallery-home" href="index.html">Home</a></li> 
+						<li><a data-cy="gallery-about" href="about.html">About Us</a></li>
+						<li><a data-cy="gallery-service" href="services.html">Services</a></li>
+                        <li class="active"><a href="gallery.html" data-cy="gallery-gallery" >Gallery</a></li>
+                        <li><a href="pricing.html" data-cy="gallery-pricing">Pricing</a></li>
+                        <li><a href="contact.html" data-cy="gallery-contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,10 +61,10 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ul class="portfolio-categ filter">
-					<li class="all active"><a href="#">All</a></li>
-					<li class="web"><a href="#" title="">Continental</a></li>
-					<li class="icon"><a href="#" title="">Asian Food</a></li>
-					<li class="graphic"><a href="#" title="">Italian Food</a></li>
+					<li class="all active"><a href="#" data-cy="gallery-all">All</a></li>
+					<li class="web"><a href="#" title="" data-cy="gallery-continental">Continental</a></li>
+					<li class="icon"><a href="#" title="" data-cy="gallery-asian-food">Asian Food</a></li>
+					<li class="graphic"><a href="#" title="" data-cy="gallery-italian-food">Italian Food</a></li>
 				</ul>
 				<div class="clearfix">
 				</div>
@@ -74,7 +74,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/1.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/1.jpg" data-cy="gallery-works-1">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -85,7 +85,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/2.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/2.jpg" data-cy="gallery-works-2">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -96,7 +96,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="graphic">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/3.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/3.jpg" data-cy="gallery-works-3">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -107,7 +107,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/4.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/4.jpg" data-cy="gallery-works-4">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -118,7 +118,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 photography" data-id="id-4" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/5.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/5.jpg" data-cy="gallery-works-5">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -129,7 +129,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="icon">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/6.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/6.jpg" data-cy="gallery-works-6">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -139,7 +139,7 @@
 						<!-- End Item Project -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/7.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/7.jpg" data-cy="gallery-works-7">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -150,7 +150,7 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="graphic">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/8.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/8.jpg" data-cy="gallery-works-8">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -185,11 +185,11 @@
 				<div class="widget">
 					<h5 class="widgetheading">Quick Links</h5>
 					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
+						<li><a data-cy="gallery-events" href="#">Latest Events</a></li>
+						<li><a data-cy="gallery-terms" href="#">Terms and conditions</a></li>
+						<li><a data-cy="gallery-privacy" href="#">Privacy policy</a></li>
+						<li><a data-cy="gallery-career" href="#">Career</a></li>
+						<li><a data-cy="gallery-contact-us" href="#">Contact us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -197,9 +197,9 @@
 				<div class="widget">
 					<h5 class="widgetheading">Latest posts</h5>
 					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus  sit voluptatem accusantium doloremque</a></li>
+						<li><a data-cy="gallery-text-1" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a data-cy="gallery-text-2" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a data-cy="gallery-text-3" href="#">Natus sit voluptatem accusantium doloremque</a></li>
 					</ul>
 				</div>
 			</div>
@@ -207,9 +207,9 @@
 					<div class="widget">
 					<h5 class="widgetheading">Recent News</h5>
 					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus  sit voluptatem accusantium doloremque</a></li>
+						<li><a data-cy="gallery-text-4" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a data-cy="gallery-text-5" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a data-cy="gallery-text-6" href="#">Natus sit voluptatem accusantium doloremque</a></li>
 					</ul>
 				</div>
 			</div>
@@ -227,11 +227,11 @@
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+						<li><a data-cy="gallery-facebook" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a data-cy="gallery-twitter" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a data-cy="gallery-linkedin" href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a data-cy="gallery-pinterest" href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a data-cy="gallery-google" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -239,7 +239,7 @@
 	</div>
 	</footer>
 </div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<a href="#" data-cy="gallery-angle-up" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
